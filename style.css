@@ -1,0 +1,107 @@
+html {
+  background: #f7f7f7;
+}
+
+body {
+  background: white;
+  max-width: 80vw;
+  margin: 0 auto;
+  color: rgb(49, 46, 46);
+}
+
+header,
+footer {
+  background: #333a40;
+  color: white;
+  padding: 20px 10px;
+}
+
+header a,
+footer a {
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+header li,
+footer li {
+  display: inline-block;
+}
+
+main {
+  width: 68%;
+  display: inline-block;
+  padding: 10px;
+}
+
+aside {
+  width: 27%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+}
+
+main li a {
+  color: black;
+  margin: 20px;
+}
+
+.box {
+  box-sizing: border-box;
+  border: 1px solid grey;
+  width: 30%;
+  height: 30%;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
+
+span {
+  font-size: 21px;
+  color: blue;
+}
+
+button {
+  font-size: 21px;
+}
+
+button:hover {
+  color: blue;
+}
+
+table {
+  width: 400px;
+  margin: 20px 0;
+}
+
+caption {
+  font-weight: bold;
+  border-bottom: 1px dotted;
+  padding: 10px;
+}
+th,
+td {
+  padding: 10px;
+}
